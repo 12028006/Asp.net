@@ -1,0 +1,58 @@
+﻿@model DataFromViewToController.Models.myemp;
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <section>
+            @using (Html.BeginForm("postusingpara", "Home"))
+            {
+                <input type="text" , name="firstname" /> <br />
+                <input type="text" , name="lastname" /> <br />
+                <br />
+                <input type="submit" ,value="click me" />
+            }
+        </section>
+
+        <section>
+            <h3>pass using request </h3>
+            @using (Html.BeginForm("postusingrequest", "Home"))
+            {
+                <input type="text" , name="firstname" /> <br />
+                <input type="text" , name="lastname" /> <br />
+                <br />
+                <input type="submit" ,value="click me" />
+            }
+        </section>
+        <section>
+            <h3>pass using form collection </h3>
+            @using (Html.BeginForm("postusingformcollection", "Home"))
+            {
+                <input type="text" , name="firstname" /> <br />
+                <input type="text" , name="lastname" /> <br />
+                <br />
+                <input type="submit" ,value="click me" />
+            }
+        </section>
+        <section>
+            <h3>pass using strongly binding </h3>
+            @using (Html.BeginForm("passusingmodels", "Home",FormMethod.Post))
+            {
+                @Html.TextBoxFor(x =>x.firstname) <br />
+                @Html.TextBoxFor(x => x.lastname) <br />
+                <br />
+                <input type="submit" ,value="click me" />
+            }
+        </section>
+    </div>
+</body>
+</html>

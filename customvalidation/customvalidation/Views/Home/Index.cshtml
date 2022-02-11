@@ -1,0 +1,26 @@
+﻿@model customvalidation.Models.Employee
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm("", "", FormMethod.Post))
+            {
+                @Html.EditorFor(x => x.Name) <br />
+                @Html.EditorFor(x => x.Message) <br/><br/>
+
+                <br /> 
+                <input type="submit" value="Click here " />
+
+            }
+    </div>
+</body>
+</html>

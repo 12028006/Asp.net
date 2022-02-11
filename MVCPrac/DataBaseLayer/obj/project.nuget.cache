@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "pgGO3oU/qm9ItzWWBhfX56ob9qoT96rnZhndXZqVG+2eK3m5VqUGdnnL4HLLf9SCrh9A/QYA3QXEYXHs9aaLLg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Shubhu\\source\\repos\\MVCPrac\\DataBaseLayer\\DataBaseLayer.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project BussinessLayer is not compatible with net472 (.NETFramework,Version=v4.7.2). Project BussinessLayer supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "BussinessLayer",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2"
+      ]
+    }
+  ]
+}

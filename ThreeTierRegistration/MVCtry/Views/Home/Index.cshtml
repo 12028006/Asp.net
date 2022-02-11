@@ -1,0 +1,73 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="~/Scripts/modernizr-2.8.3.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#btnSave").click(function () {
+            var form_data = new FormData(document.getElementById("Form1"));
+            form_data.append("label", "WEBUPLOAD");
+            $.ajax({
+                url: "AddReg",
+                type: "POST",
+                data: form_data,
+                processData: false,
+                contentType: false,
+
+            }).done(function (data) {
+                console.log(data)
+                $('#Form1')[0].reset();
+                alert(data);
+            });
+        });
+    });
+
+</script>
+
+<h2>Index</h2>
+
+<form id="Form1" method="post">
+    <table style="border:1px solid black ; background-color:aquamarine">
+        <tr>
+            <td>FullName</td>
+            <td><input type="text" id="txtName" name="txtName" /></td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td><textarea id="txtAddress" name="txtAddress"></textarea></td>
+        </tr>
+        <tr>
+            <td>City</td>
+            <td>
+                <select name="txtCity" id="txtCity">
+                    <option value="">select city</option>
+                    <option value="">Ujjain</option>
+                    <option value="">Indore</option>
+                    <option value="">Bhopal</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>DoB</td>
+            <td><input type="date" id="txtDoB" name="txtDoB" /></td>
+        </tr>
+        <tr>
+            <td>Contact No</td>
+            <td><input type="text" id="txtCno" name="txtCno" /></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" id="rdbMale" name="rdbGender" value="Male" />Male
+                <input type="radio" id="rdbFemale" name="rdbGender" value="Female" checked="checked" />Female
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="button" name="btnSave" id="btnSave" value="Submit " /></td>
+        </tr>
+
+    </table>
+</form>

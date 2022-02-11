@@ -1,0 +1,6 @@
+C:\Users\Shubhu\source\repos\MVCtry\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\Shubhu\source\repos\MVCtry\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\Shubhu\source\repos\MVCtry\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\Shubhu\source\repos\MVCtry\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Shubhu\source\repos\MVCtry\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\Shubhu\source\repos\MVCtry\BusinessLayer\obj\Debug\BusinessLayer.pdb

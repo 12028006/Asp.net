@@ -1,0 +1,29 @@
+﻿@model viewbagthreetier.Models.Employee
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        <table>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>City</th>
+            </tr>
+            <tr>
+                <td>@TempData["Id"]</td>
+                <td>@TempData["Name"]</td>
+                <td>@TempData["Address"]</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

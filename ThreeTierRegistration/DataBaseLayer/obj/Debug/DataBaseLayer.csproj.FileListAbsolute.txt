@@ -1,0 +1,14 @@
+C:\Users\Shubhu\source\repos\MVCtry\DataBaseLayer\bin\Debug\DataBaseLayer.dll
+C:\Users\Shubhu\source\repos\MVCtry\DataBaseLayer\bin\Debug\DataBaseLayer.pdb
+C:\Users\Shubhu\source\repos\MVCtry\DataBaseLayer\bin\Debug\BusinessLayer.dll
+C:\Users\Shubhu\source\repos\MVCtry\DataBaseLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\Shubhu\source\repos\MVCtry\DataBaseLayer\obj\Debug\DataBaseLayer.csproj.AssemblyReference.cache
+C:\Users\Shubhu\source\repos\MVCtry\DataBaseLayer\obj\Debug\DataBaseLayer.csproj.CoreCompileInputs.cache
+C:\Users\Shubhu\source\repos\MVCtry\DataBaseLayer\obj\Debug\DataBaseLayer.csproj.CopyComplete
+C:\Users\Shubhu\source\repos\MVCtry\DataBaseLayer\obj\Debug\DataBaseLayer.dll
+C:\Users\Shubhu\source\repos\MVCtry\DataBaseLayer\obj\Debug\DataBaseLayer.pdb
+C:\Users\Shubhu\source\repos\MVCtry\DataBaseLayer\bin\Debug\DataBaseLayer.dll.config
+C:\Users\Shubhu\source\repos\MVCtry\DataBaseLayer\bin\Debug\EntityFramework.dll
+C:\Users\Shubhu\source\repos\MVCtry\DataBaseLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Shubhu\source\repos\MVCtry\DataBaseLayer\bin\Debug\EntityFramework.xml
+C:\Users\Shubhu\source\repos\MVCtry\DataBaseLayer\bin\Debug\EntityFramework.SqlServer.xml

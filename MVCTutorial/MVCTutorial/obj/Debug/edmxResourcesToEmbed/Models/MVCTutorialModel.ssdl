@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MVCTutorialModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'MVCTutorial.dbo.Employe' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Employe">
+    <Key>
+      <PropertyRef Name="EmployeeId" />
+    </Key>
+    <Property Name="EmployeeId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="Address" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="MVCTutorialModelStoreContainer">
+    <EntitySet Name="Employe" EntityType="Self.Employe" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Employe].[EmployeeId] AS [EmployeeId], 
+    [Employe].[Name] AS [Name], 
+    [Employe].[Address] AS [Address]
+    FROM [dbo].[Employe] AS [Employe]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

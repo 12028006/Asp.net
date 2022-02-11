@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5c2075ca-d5d0-4487-97d6-67a9d2df8a94": {
+      "ProjectGuid": "5c2075ca-d5d0-4487-97d6-67a9d2df8a94",
+      "DisplayName": "MVCPrac",
+      "ColorIndex": 0
+    },
+    "ae7d1710-cf6b-46ca-bc77-a33c23564286": {
+      "ProjectGuid": "ae7d1710-cf6b-46ca-bc77-a33c23564286",
+      "DisplayName": "BussinessLayer",
+      "ColorIndex": 1
+    },
+    "49a050a7-8a88-4989-83d0-180905384486": {
+      "ProjectGuid": "49a050a7-8a88-4989-83d0-180905384486",
+      "DisplayName": "DataBaseLayer",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

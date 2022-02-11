@@ -1,0 +1,34 @@
+﻿
+@using ConditionalStatement.Models
+@model ConditionalStatement.Models.Class
+
+
+<h1>Loops, Conditional Statement and directives in rozer</h1>
+@{
+    int myvar = 2;
+}
+<div>
+    @if(myvar == 1)
+    {
+        <h2> Hello , I am from block 1</h2>
+    }else{
+          <h3>I am not fro block 1 </h3>
+    }
+</div>
+<hr />
+<div>
+    @(myvar == 1 ? "yes enter value is one" : "enter value is not one")
+</div>
+
+
+<div>
+    @for(int i = 0; i<5; i++)
+    {
+        <h3>yes i am  @i index </h3>
+    }
+    @{
+        Class emp = new Class() {Id = 201 , Name = "shubham"};
+    }
+</div>
+<div> @emp.Id</div>
+<div> @emp.Name</div>

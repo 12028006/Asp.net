@@ -1,0 +1,28 @@
+﻿@model validationinMVC_.Models.Employee
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        @using (Html.BeginForm("SubmitData", "Home",FormMethod.Post))
+
+            {
+                @Html.TextBoxFor(x => x.Firstname) <br /> //this is strongly binding 
+                @Html.TextBox("LastName") <br />//this is the expamle of loosly binding 
+                @Html.TextBox("Email") <br />
+                @Html.Editor("Age") <br />
+                <br />
+                <input type="submit" value="click here" />
+            }
+    </div>
+</body>
+</html>

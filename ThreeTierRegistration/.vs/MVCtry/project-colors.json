@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "acbcf06b-c57d-4295-988b-bc564f443281": {
+      "ProjectGuid": "acbcf06b-c57d-4295-988b-bc564f443281",
+      "DisplayName": "MVCtry",
+      "ColorIndex": 0
+    },
+    "13e7a26b-5c6e-40e6-bd2a-3db12c615704": {
+      "ProjectGuid": "13e7a26b-5c6e-40e6-bd2a-3db12c615704",
+      "DisplayName": "BusinessLayer",
+      "ColorIndex": 1
+    },
+    "71ba3385-8127-435c-9044-10eb139a0145": {
+      "ProjectGuid": "71ba3385-8127-435c-9044-10eb139a0145",
+      "DisplayName": "DataBaseLayer",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 3
+}

@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+@model MVCTutorial.Models.EmployeeViewModel
+
+<h2>Index</h2>
+
+<div>
+    @if (Model != null)
+    {
+        <ul>
+
+            <h3>Employee Information </h3>
+            <li>Employee Id : <b>@Model.EmployeeId</b></li>
+            <li>Employee Name : <b>@Model.Name</b></li>
+            <li>Employee Address : <b>@Model.Address</b></li>
+        </ul>
+    }
+</div>

@@ -1,0 +1,15 @@
+C:\Users\Shubhu\source\repos\MVCPrac\DataBaseLayer\bin\Debug\net6.0\DataBaseLayer.deps.json
+C:\Users\Shubhu\source\repos\MVCPrac\DataBaseLayer\bin\Debug\net6.0\DataBaseLayer.dll
+C:\Users\Shubhu\source\repos\MVCPrac\DataBaseLayer\bin\Debug\net6.0\ref\DataBaseLayer.dll
+C:\Users\Shubhu\source\repos\MVCPrac\DataBaseLayer\bin\Debug\net6.0\DataBaseLayer.pdb
+C:\Users\Shubhu\source\repos\MVCPrac\DataBaseLayer\bin\Debug\net6.0\BussinessLayer.dll
+C:\Users\Shubhu\source\repos\MVCPrac\DataBaseLayer\bin\Debug\net6.0\BussinessLayer.pdb
+C:\Users\Shubhu\source\repos\MVCPrac\DataBaseLayer\obj\Debug\net6.0\DataBaseLayer.csproj.AssemblyReference.cache
+C:\Users\Shubhu\source\repos\MVCPrac\DataBaseLayer\obj\Debug\net6.0\DataBaseLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shubhu\source\repos\MVCPrac\DataBaseLayer\obj\Debug\net6.0\DataBaseLayer.AssemblyInfoInputs.cache
+C:\Users\Shubhu\source\repos\MVCPrac\DataBaseLayer\obj\Debug\net6.0\DataBaseLayer.AssemblyInfo.cs
+C:\Users\Shubhu\source\repos\MVCPrac\DataBaseLayer\obj\Debug\net6.0\DataBaseLayer.csproj.CoreCompileInputs.cache
+C:\Users\Shubhu\source\repos\MVCPrac\DataBaseLayer\obj\Debug\net6.0\DataBaseLayer.csproj.CopyComplete
+C:\Users\Shubhu\source\repos\MVCPrac\DataBaseLayer\obj\Debug\net6.0\DataBaseLayer.dll
+C:\Users\Shubhu\source\repos\MVCPrac\DataBaseLayer\obj\Debug\net6.0\ref\DataBaseLayer.dll
+C:\Users\Shubhu\source\repos\MVCPrac\DataBaseLayer\obj\Debug\net6.0\DataBaseLayer.pdb

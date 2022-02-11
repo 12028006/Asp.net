@@ -1,0 +1,38 @@
+﻿<h2>this is view for rozar</h2>
+
+<div>
+    @DateTime.Now
+</div>
+<div>
+    @(5-3)
+</div>
+
+@{
+    var a = 1;var b = 2;
+    var c = a + b;
+    var currenttime = DateTime.Now;
+    var tomorrowtime = DateTime.Now.AddDays(1);
+    var colorlist = new List<string>() { "red", "balck", "blue" };
+}
+<div>
+    <label>
+        @c
+    </label>
+    <br/>
+
+    <label>
+        @currenttime
+    </label>
+    <br/>
+    <label>
+        @tomorrowtime
+    </label>
+    <br/>
+    <label>
+        @colorlist.FirstOrDefault()
+    </label>
+
+    <div>shubham.patidar@@gmail.com</div>
+    <div>@@shubham_twitter</div>
+
+</div>

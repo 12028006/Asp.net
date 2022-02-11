@@ -1,0 +1,90 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script>
+        $(document).ready(function () {
+            $(".btnhide").click(function () {
+                $(".test").hide(1000);
+            });
+            $(".btnshow").click(function () {
+                $(".test").show(1000);
+            });
+            $(".new").click(function () {
+
+                $("div").html("this is new content");
+            });
+            $(".fadebtn").click(function () {
+
+                $(".div").fadeOut(3000);
+            });
+            $(".fadebtn").click(function () {
+
+                $(".div").fadeIn(3000);
+            });
+
+        });
+           // $(document).ready(function () {
+            //    $(".btnshow").click(function () {
+            //        $(".test").show(1000);
+            //    });
+            //});
+
+    </script>
+</head>
+<body>
+
+    <h2 class="test">This is a heading</h2>
+
+    <p class="test">This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+
+    <button class="btnhide">hide content</button>
+    <button class="btnshow">show content</button>
+    <button class="new">new contant</button>
+    <div></div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td colspan="2">Larry the Bird</td>
+               
+            </tr>
+        </tbody>
+    </table>
+    <button class="fadebtn">this is button for fade </button>
+    <div class="div">
+        <h2 style="background-color:red; font-size:30px">this is fade content
+        </h2>
+    </div>
+
+
+
+</body>
+</html>

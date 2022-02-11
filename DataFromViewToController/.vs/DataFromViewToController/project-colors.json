@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0b8e8f46-8623-492a-af44-45d733031bc3": {
+      "ProjectGuid": "0b8e8f46-8623-492a-af44-45d733031bc3",
+      "DisplayName": "DataFromViewToController",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
